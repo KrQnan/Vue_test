@@ -1,4 +1,4 @@
-runtime:nodejs16:
+runtime:nodejs16.13.2:
   # Serve all static files with urls ending with a file extension
 - url: /(.*\..+)$ 
   static_files: dist/\1

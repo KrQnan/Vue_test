@@ -1,5 +1,5 @@
 steps:
-- name: node:10.15.1
+- name: node:16.13.2
   entrypoint: npm
   args: ["install"]
   dir: "/vue_test"
