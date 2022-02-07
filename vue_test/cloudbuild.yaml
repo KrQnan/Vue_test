@@ -2,12 +2,12 @@ steps:
 - name: node:10.15.1
   entrypoint: npm
   args: ["install"]
-  dir: "/vue_test"
+  dir: "/vue_test/package.json"
 - name: node:10.15.1
   entrypoint: npm
   args: ["run", "build"]
-  dir: "/vue_test"
+  dir: "/vue_test/package.json"
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
-  dir: "/vue_test"
+  dir: "/vue_test/package.json"
 timeout: "1600s"
