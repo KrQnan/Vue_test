@@ -28,7 +28,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "serve",
-    "build": "tsc"
+    "build": "echo 'build script executed'"
   },
   "author": "",
   "license": "ISC"
