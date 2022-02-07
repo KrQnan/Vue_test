@@ -27,7 +27,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "serve"
+    "test": "serve",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC"
